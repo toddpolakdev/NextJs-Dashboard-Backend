@@ -1,25 +1,22 @@
 {
-  "name": "nextjs-dashboard-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^3.13.0",
+    "@graphql-tools/utils": "^10.1.2",
     "apollo-server-micro": "^3.13.0",
-    "graphql": "^16.8.1",
-    "pg": "^8.11.3"
+    "apollo-server-plugin-response-cache": "^3.8.2",
+    "graphql": "^16.8.1"
   },
   "devDependencies": {
-    "@types/graphql": "^14.5.0",
-    "@types/micro": "^10.0.0",
-    "@types/node": "^20.11.26",
-    "@types/pg": "^8.11.2",
-    "@vercel/node": "^3.0.22"
+    "@types/node": "^20.11.27",
+    "@vercel/node": "^3.0.22",
+    "typescript": "^5.4.2"
   }
 }
