@@ -10,6 +10,11 @@
       {
         "src": "/api/graphql",
         "dest": "/api/index.ts"
+      },
+      {
+        "src": "/",
+        "status": 307,
+        "headers": { "Location": "/api/graphql" }
       }
     ]
   }

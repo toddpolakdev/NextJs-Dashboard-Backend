@@ -9,12 +9,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@graphql-tools/utils": "^10.1.2",
     "apollo-server-micro": "^3.13.0",
-    "apollo-server-plugin-response-cache": "^3.8.2",
-    "graphql": "^16.8.1"
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1",
+    "micro": "^10.0.1",
+    "mongodb": "^6.5.0"
   },
   "devDependencies": {
+    "@types/mongodb": "^4.0.7",
     "@types/node": "^20.11.27",
     "@vercel/node": "^3.0.22",
     "typescript": "^5.4.2"
