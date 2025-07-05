@@ -30,6 +30,14 @@ export const resolvers = {
     //     name: restaurant.name,
     //   }));
     // },
+
+    // New test resolver with timestamp
+    deploymentTest: () => ({
+      message: 'Deployment sync test successful!',
+      timestamp: new Date().toISOString(),
+      version: '1.0.2'
+    }),
+
     technologies: async (_: unknown, { category }: ResolverArgs) => {
       const db = await connectToDatabase();
       console.log('db', db)

@@ -5,6 +5,13 @@ export const typeDefs = gql`
     restaurants: [Restaurant!]!
     technologies(category: String): [Technology!]!
     hello: String
+    deploymentTest: DeploymentInfo
+  }
+
+  type DeploymentInfo {
+    message: String!
+    timestamp: String!
+    version: String!
   }
 
   type Restaurant {
