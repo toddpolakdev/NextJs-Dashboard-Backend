@@ -18,7 +18,7 @@ interface ResolverArgs {
 
 export const resolvers = {
   Query: {
-    hello: () => 'NextJs Dashboard Backend Test!',
+    hello: () => 'UPDATED VERSION - NEW DEPLOYMENT TEST 2025!',
     // restaurants: async () => {
     //   const db = await connectToDatabase();
     //   console.log('db', db )
